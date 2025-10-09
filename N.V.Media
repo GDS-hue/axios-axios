@@ -1,0 +1,23 @@
+What is NvMedia
+
+NvMedia is NVIDIA’s middleware / API for hardware‐accelerated multimedia (image, video) processing on Tegra / DRIVE platforms. 
+NVIDIA Docs
+
+It provides surfaces (image/video), capture, encode, decode, format conversions, etc. 
+NVIDIA Docs
+
+It acts as a framework layer that calls lower‐level drivers for interaction with SoC components. 
+NVIDIA Docs
+
+Porting / Version Changes
+
+NVIDIA publishes a NvMedia Porting Guide that documents API changes between DRIVE OS releases (e.g. 5.1 → 5.2). 
+NVIDIA Docs
+
+For example, in DRIVE OS 5.2.0.0:
+
+The NvMedia IPP framework APIs are deprecated; moving to NvMedia SIPL APIs. 
+NVIDIA Docs
+
+Certain camera / plugin registration APIs are removed (e.g. registering multiple custom plugins per pipeline). 
+NVIDIA Docs
