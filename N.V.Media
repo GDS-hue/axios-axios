@@ -6,7 +6,7 @@ NVIDIA Docs
 It provides surfaces (image/video), capture, encode, decode, format conversions, etc. 
 NVIDIA Docs
 
-It acts as a framework layer that calls lower‐level drivers for interaction with SoC components. 
+// your updated code here
 NVIDIA Docs
 
 Porting / Version Changes
